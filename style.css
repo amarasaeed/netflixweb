@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 50%;
+    height: 100%;
+
+}
+.btn{
+  padding: 8px 25px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+.nav{
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+
+}
+header{
+    background-image:linear-gradient(rgba(4, 9, 20, 0.69), rgba(4, 9, 20, 0.69)),url("./images/bg.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.hero{
+    text-align: center;
+    align-items: center;
+    color: white;
+    transform: translate(0px ,200px);
+    line-height: 50px;
+    font-family: 'Martel Sans', sans-serif;
+}
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    gap: 10px;
+}
+.email{
+    padding: 10px 40px;
+    border-radius: 7px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+   
+    
+}
+.email::placeholder {
+    color: rgba(255, 255, 255, 1);
+}
+.start{
+    padding: 7px 25px;
+    background-color: red;
+  color: white;
+  font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.start .bx {
+    font-size: 24px; 
+    vertical-align: middle; 
+}
+.separation{
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    
+}
+.first {
+    display: flex;
+    justify-content: center;
+   
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 20%;  /* Adjust this value to fit the screen area vertically */
+    right: 14%; /* Adjust this value to fit the screen area horizontally */
+    width: 73%; /* Adjust the width to cover the screen area */
+    height: 55%; /* Adjust the height to cover the screen area */
+    object-fit: cover; 
+}
+.third div{
+    padding-left:200px;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    background-color: black;
+    color: white;
+    height: 50vh;
+}
+
+.faq{
+    background-color: black;
+}
+.Questions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    margin: 10px auto;
+    background-color:dimgray;
+    color: white;
+   
+}
+.Questions span{
+padding: 15px;
+}
+footer{
+    background-color: black;
+    color:white;
+    line-height: 30px;
+    padding: 50px 150px;
+    text-decoration: underline;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px,auto));
+}
+.faq .input{
+    padding-bottom: 20px;
+}
+
